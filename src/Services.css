@@ -1,0 +1,41 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    height: 100%;
+    flex-wrap: wrap;
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.s-card{
+    height: 25rem;
+    width: 20rem;
+    margin: 2rem 3rem;
+    border-radius: 1rem;
+
+
+}
+.s-title{
+    text-align: center;
+    color: black;
+    margin-top: 2rem;
+}
+.s-text{
+    margin: auto;
+    text-align: center;
+}
+.s-img{
+    height: 40%;
+    width: 100%;
+    object-fit:contain;
+    cursor: pointer;
+    object-position:center;
+    background-color: transparent;
+}

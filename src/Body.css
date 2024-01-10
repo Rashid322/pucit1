@@ -1,0 +1,106 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.bodysection{
+    height: 100%;
+    width: 97%;
+    display: flex;
+    padding: 1rem 2rem;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    background-color:dimgray;
+}
+
+.imgbody{
+    height: 25rem;
+    width: 30%;
+    border: solid cornsilk ;
+    border-radius: 5px;
+
+}
+.imgbody1{
+    height: 25rem;
+    width: 66%;
+    border: solid cornsilk ;
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.headingbox{
+    font-weight: 500;
+    margin: auto;
+    color: aliceblue;
+    padding: 1rem  1rem;
+    font-size: 2vw;
+    
+}
+.textbox{
+    color: aliceblue;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 1.2vw;
+    padding: 0.3rem;
+
+
+
+
+}
+.buttonbox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    height: 2.5rem;
+    width: 9rem;
+    border: solid cornflowerblue;
+    border-radius: 10px;
+cursor: pointer;
+    color:aliceblue;
+    background-color: rgb(24, 89, 209);
+   
+}
+.buttonbox2{
+    margin: auto;
+    border: 0.2rem solid aliceblue ;
+    border-radius: 0.9rem;
+    text-align: justify;
+    color: aliceblue;
+    display: grid;
+    font-size:1.5rem;
+    margin-top: 2.5rem;
+    background-color:rgb(14, 41, 92);
+}
+
+.line{
+    height: 0.25rem;
+    width: 90%;
+    background-color:rgb(75, 12, 12);
+    margin: auto;
+
+}
+
+.imgboxR{
+    height: 100%;
+    width: 45%;
+    padding: 0.1rem ;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: bottom ;
+
+}
+
+.text{
+    width: 47%;
+    height: 100%;
+font-size: 5vh;
+}

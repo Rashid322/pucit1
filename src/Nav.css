@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+
+.header2 {
+    height: 3.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    border-radius: 1rem;
+    position: relative;
+
+    background-color: #170963;
+}
+
+.logo2 {
+    height: 3rem;
+    cursor: pointer;
+}
+
+.nav-list2 {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+
+}
+
+.nav-links2 {
+    color: aliceblue;
+    display: block;
+    font-size: large;
+
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+    text-transform: uppercase;
+}
+
+.nav-links2:hover {
+    
+    
+    background-color: rgb(100, 75, 52);
+
+    border-radius: 0.5rem;
+
+}
+.nav-links2:active{
+    background-color: rgb(252, 255, 240);
+    text-decoration: solid;
+}
+
+
+.mainheader {
+    height: 4rem;
+    width: 100%;
+    background-color: rgb(12, 12, 119);
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.oderlist {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    padding: 0rem 2rem;
+}
+
+.marqueetext {
+    font-size: large;
+    color: aliceblue;
+
+
+
+}
+
+.logolink {
+    height: 2rem;
+    width: 2rem;
+
+}
+.fiatext{
+    color: blueviolet;
+    font-display: inherit;
+    display: flex;
+    justify-content: center;
+    font-size: inherit;
+    margin: auto;
+    padding:  1rem;
+    
+}
+
+
+.link {
+    color: aliceblue;
+    font-size: large;
+    font-weight: 400;
+    background-color: rgb(9, 9, 78);
+    width: 20%;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    height: 3rem;
+}
+
+.headersection {
+    height: 10rem;
+    width: 100%;
+    margin-top: 0.3rem;
+    border-radius: 0.3rem;
+    padding: 1rem 2rem;
+    background-color: rgb(198, 229, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fialogo {
+    height: 7rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderlist {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 0.5rem;
+
+
+
+}
+
+.ilist {
+    color: rgb(11, 24, 37);
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.mobile-nav-icon {
+    background: transparent;
+    color: aliceblue;
+    display: none;
+    cursor: pointer;
+}
+
+.icon {
+    height: 2rem;
+    width: 2rem;
+
+}
+
+
+
+/* media query  981px  */
+
+@media (max-width:63rem) {
+
+
+    .mobile-nav-icon {
+        display: block;
+
+
+    }
+
+
+
+    .nav-list2 {
+
+height: 400px;
+width: 100%;
+background-color:rgb(5, 57, 87);
+position: absolute;
+left: 0;
+top: 0;
+ display: flex;       
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      
+
+    }
+    .nav-links2{
+    flex-direction: column;
+    align-items: center;
+    
+    }
+
+
+}
